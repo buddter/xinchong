@@ -1,0 +1,49 @@
+		.cont{
+			width: 1200px;
+			margin: auto;
+			background: #eee;
+		}
+		.banner{
+			height: 394px;
+			background: url(../images/new-banner.jpg);
+		}
+		.news{
+			width: 1000px;
+			margin:auto;
+			background: #ececec;
+		}
+		.news>div{
+			float: left;
+			height: 853px;
+			width: 300px;
+			overflow: hidden;
+		}
+		.news .text{
+			display: inline-block;
+			background-color: #fff;
+			padding: 10px 10px 0px;
+			line-height: 25px;
+			box-sizing: border-box;
+		}
+		.hei80{
+			height: 80px;
+		}
+		.hei90{
+			height: 90px;
+		}
+		.hei155{
+			height: 155px;
+		}
+		.news  .text i{
+			display: inline-block;
+			width: 32px;
+		}
+		.news img{
+			float: left;
+		}
+		.blank35{
+			height: 35px;
+		}
+		.news .middle{
+			margin: 0px 50px;
+		}

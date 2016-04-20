@@ -1,0 +1,70 @@
+.banner{
+			height: 397px;
+			background:url(../images/AU-banner.jpg);
+		}
+		.blank30{
+			height: 30px;
+		}
+		.block{
+			width: 920px;
+			height: 1861px;
+			box-sizing: border-box;
+			margin: 0 auto;
+			position: relative;
+			background: url(../images/方框.png);
+			background-color: white;
+		}
+		.block .tab{
+			position: absolute;
+			font-size: 16px;
+			font-family: "宋体";
+			font-weight: 700;
+			left: -88px;
+			z-index: 5;
+
+		}
+		.block .box{
+			height: 100%;
+			width:100%;
+			position: relative;
+		}
+		.box li{
+			width: 100%;
+			height: 100%;
+			padding-top: 1px;
+			text-align: center;
+			position: absolute;
+			
+		}
+		.box .checked{
+			z-index:4; 
+		}
+		.tab .checked{
+			background:url(../images/标题背景色.png);
+			color: #f0f0f0;
+			opacity: 1;
+		}
+		.tab .aufir{
+			margin-top: 10px;
+		}
+		.tab li{
+			height: 50px;
+			width: 175px;
+			margin-top: 5px;
+			text-align: center;
+			line-height: 50px;
+			background:url(../images/标题背景色.png);
+			color:#000;
+			opacity: .5;
+			cursor: pointer;
+		}
+		.backTop{
+			width: 51px;
+			height: 51px;
+			background-color: green;
+			background: url(../images/回到顶部.png);
+			position: fixed;
+			top:50%;
+			right:0;
+			display: none;
+		}

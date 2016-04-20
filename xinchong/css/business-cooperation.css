@@ -1,0 +1,31 @@
+.banner{
+	height: 400px;
+	background:url(../images/BC-banner.jpg);
+}
+.cont-inner{
+	width: 1000px;
+	margin:0 auto;
+}
+.cont-inner ul li{
+	float: left;
+}
+.cont-inner ul .text{
+	width: 450px;
+	height:853px;
+	background-color: #fff;
+}
+.cont-inner ul .text span{
+	display: inline-block;
+	width: 100%;
+	height: 283px;
+	padding-top: 50px;
+	box-sizing: border-box;
+	font-size:16px;
+}
+.cont-inner ul .text .title{
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+.cont{
+	background-color: #ececec;
+}

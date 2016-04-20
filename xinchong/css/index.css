@@ -1,0 +1,351 @@
+.city>div,.img>img,.text>div{
+  transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s; 
+  -webkit-transition: all ease-in-out 1s; 
+  -o-transition: all ease-in-out 1s; 
+}
+
+#main{
+			height: 600px;
+			width: 900px;
+      margin:0 auto;
+      position: relative;
+      overflow: hidden;
+		}
+    #main div{
+      margin-left: 0px;
+    }
+    .map{
+      width: 900px;
+      position: relative;
+      margin:0 auto;
+      margin-left: -100px;
+    }
+   .map .mask{
+      width: 135px;
+      height: 135px;
+      background-color: #fff;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 9999;
+   }
+   .city{
+      position: absolute;
+      z-index: 9999;
+      background-size: cover;
+   }
+  
+   .map .circle{
+      width:8px;
+      height: 8px;
+      border-radius: 50%;
+      border:1px solid green; 
+      position: absolute;
+      z-index: 9999;
+   }
+   .capital{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border:1px solid green; 
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+    display: none;
+   }
+   .map .dashed{
+      border:1px dashed green;
+      position: absolute;
+      z-index: 9999;
+   }
+
+   .map .line{
+      border:1px solid green;
+      position: absolute;
+      z-index: 9999;
+   }
+   .map .round{
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: green;
+       border:1px solid green;
+      position: absolute;
+      z-index: 9999;
+   }
+   .map .hezhouC{
+      top:220px;
+      left: 660px;
+   }
+   .map .hezhouD{
+      height: 165px;
+      width: 0px;
+      top:62px;
+      left:709px;
+      transform:rotate(30deg);
+      -ms-transform:rotate(30deg);  
+      -moz-transform:rotate(30deg); 
+      -webkit-transform:rotate(30deg);
+      -o-transform:rotate(30deg); 
+   }
+   .map .hezhouL{
+    width: 60px;
+    height: 0px;
+    border:1px solid green;
+    top:70px;
+    left: 753px;
+   }
+   .map .hezhouR{
+    top:65px;
+    left: 818px;
+   }
+   .map .city .information{
+      width: 323px;
+      height: 460px;
+      position: absolute;
+      left: 850px;
+      top:50px;
+   }
+   .city .information .text{
+      width: 100%;
+      height: 140px;
+      border:1px solid green;
+      border-radius: 8px;
+      box-sizing:border-box;
+      padding-left: 15px;
+      position: relative;
+   }
+
+   .city .information .city-in{
+      color:#3f813f;
+      font-size: 30px;
+   }
+   .city .information .name-in{
+     color:#3f813f;
+    font-size: 24px;
+    margin-top: 50px;
+   }
+   .city .information .dotted{
+    height: 63px;
+    width: 5px;
+    background: url(../images/index/小圆点.png) no-repeat;
+    margin: 5px auto;
+   }
+   .city .information .img{
+    width: 320px;
+    height: 241px;
+    border:1px solid green;
+   }
+   .map .shadow{
+    position: absolute;
+    left:335px;
+    top: 500px;
+    z-index: 999;
+   }
+   .map .liuzhouC{
+    top:217px;
+    left: 524px;
+   }
+   .map .liuzhouD{
+    height: 200px;
+    width: 0px;
+    top:44px;
+    left:605px;
+    transform:rotate(405deg);
+    -ms-transform:rotate(405deg);  
+    -moz-transform:rotate(405deg); 
+    -webkit-transform:rotate(405deg);
+    -o-transform:rotate(405deg); 
+   }
+   .map .liuzhouL{
+    width: 135px;
+    height: 0px;
+    border:1px solid green;
+    top:70px;
+    left:679px;
+   }
+    .map .nanningC{
+    top:359px;
+    left: 457px;
+   }
+   .map .nanningD{
+    height:380px;
+    width: 0px;
+    top:24px;
+    left:588px;
+    transform:rotate(761deg);
+    -ms-transform:rotate(761deg);  
+    -moz-transform:rotate(761deg); 
+    -webkit-transform:rotate(761deg);
+    -o-transform:rotate(761deg); 
+   }
+   .map .nanningL{
+    width: 100px;
+    height: 0px;
+    border:1px solid green;
+    top:70px;
+    left:714px;
+   }
+   .map .laibinL{
+    width: 100px;
+    height: 0px;
+    border:1px solid green;
+    top:70px;
+    left:714px;
+   }
+    .map .laibinC{
+    top:287px;
+    left: 519px;
+   }
+   .map .laibinD{
+    height:281px;
+    width: 0px;
+    top:38px;
+    left:620px;
+    transform:rotate(761deg);
+    -ms-transform:rotate(761deg);  
+    -moz-transform:rotate(761deg); 
+    -webkit-transform:rotate(761deg);
+    -o-transform:rotate(761deg); 
+   }
+   .text>div{
+    position: absolute;
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+   }
+   .imgshow{
+    height:241px;
+    opacity: 1; 
+   }
+   .imghide{
+    height: 0px;
+    opacity: 0.3;
+   }
+   .img>img{
+    float: left;
+   }
+   .text .texthide{
+    height: 0px;
+    top:121px;
+    opacity: 0;
+   }
+   .text .textshow{
+    height: 121px;
+    top: 0px;
+    opacity: 1;
+   }
+  .city .information .liuzhou .name-in{
+    font-size: 15px;
+    margin-top: 30px;
+   }
+   .city .name-in span{
+    cursor: pointer;
+    color: #aaa;
+   }
+   .liuzhou .name-in span:hover{
+    text-decoration: underline;
+   }
+   .city .name-in .selected{
+    color: #3f813f;
+   }
+
+  .banner{
+    height: 400px;
+    background: url(../images/index/index-banner.jpg);
+  }
+  .newsNav{
+    width: 800px;
+    height: 78px;
+    background: url(../images/index/新闻背景-2.jpg);
+  }
+  .newsNav li{
+    box-sizing:border-box;
+    width: 200px;
+    height: 78px;
+    float: left;
+    opacity:0.8;
+    cursor: pointer;
+  }
+  .fir{
+    background-image: url(../images/index/走进歆崇-1.jpg);
+  }
+  .sec{
+    background-image: url(../images/index/品质服务-1.jpg);
+  }
+  .thi{
+    background-image: url(../images/index/经营实力-1.jpg);
+  }
+  .fou{
+    background-image: url(../images/index/企业新闻-1.jpg);
+  }
+  .firse{
+     background-image: url(../images/index/走进歆崇.jpg);
+  }
+  .secse{
+     background-image: url(../images/index/品质服务.jpg);
+  }
+  .thise{
+     background-image: url(../images/index/经营实力.jpg);
+  }
+  .fouse{
+     background-image: url(../images/index/企业新闻.jpg);
+  }
+  .newsTag{
+    width: 1002px;
+    height: 302px;
+    background: url(../images/index/新闻背景-2.jpg);
+    position:relative;
+  }
+  .newsTag>li{
+    box-sizing:border-box;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+    width: 995px;
+    height: 294px;
+    background-color: #fff; 
+  }
+  .newsTag .company{
+    padding:70px 20px 70px 20px;
+  }
+  .newsTag li img{
+    float: left;
+  }
+  .newsTag li{
+    font-size: 17px;
+    font-family: '新宋体';
+    color: #888;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  .enterpriseNews{
+    width: 1002px;
+    margin:0 auto;
+  }
+  .newsTag .news{
+    float: left;
+    text-align: left;
+    margin-top: 57px;
+    margin-left: 30px;
+  }
+  .ser{
+    position: relative;
+  }
+  .ser .left{
+    position: absolute;
+    left: 0px;
+    top:45%;
+  }
+  .ser .right{
+    position: absolute;
+    right: 0px;
+    top:45%;
+  }

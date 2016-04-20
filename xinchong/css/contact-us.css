@@ -1,0 +1,21 @@
+.banner{
+	height: 399px;
+	background: url(../images/CU-map.jpg);
+}
+.cooperatorlist{
+	height: 261px;
+	margin: 0px 127px;
+}
+.listpicture,.listtext{
+	float: left;
+}
+.listpicture{
+	width: 421px;
+}
+.listtext{
+	width:510px; 
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+	padding-top: 50px;
+}	

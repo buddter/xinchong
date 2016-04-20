@@ -1,0 +1,198 @@
+.mask-layer{
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;	
+	-webkit-transition: all 0.5s;	
+	-o-transition: all 0.5s;
+}
+.box li,.tab li{
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;	
+	-webkit-transition: all 0.5s;	
+	-o-transition: all 0.5s;
+}
+nav li{
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;	
+	-webkit-transition: all 0.5s;	
+	-o-transition: all 0.5s;
+}
+.blank60{
+	height: 60px;
+}
+.blank35{
+	height: 35px;
+}
+.blank30{
+	height: 30px;
+}
+.blank25{
+	height: 25px;
+}
+.blank65{
+	height: 65px;
+}
+.cont{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	-moz-box-shadow: 0px 0px 100px #666; /* 老的 Firefox */
+	box-shadow: 0px 0px 100px #666;
+}
+.navbg{
+	height: 51px;
+	width: 100%;
+	background: url(../images/nav-background.jpg);
+	position: absolute;
+	top:106px;
+	z-index: -1;
+}
+.bannerbg{
+	height: 399px;
+	width: 100%;
+	position: absolute;
+	top:157px;
+	z-index: -1;
+}
+.footerbg{
+	height: 227px;
+	width: 100%;
+	margin-top: -227px;
+	position: relative;
+	z-index: -1;
+	background: url(../images/foot-background.jpg);
+}
+.bannerbg ul{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.bannerbg ul li{
+	opacity: 0.3;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	display: none;
+}
+/*header*/
+
+.logo{
+	padding: 20px 0px 15px 110px;
+}
+nav{
+	height: 51px;
+	background: url(../images/nav-background.jpg) ;
+	padding-left: 110px;
+	position: relative;
+}
+nav>ul>li.clickli{
+	background: url(../images/鼠标置于上方颜色.png) ;
+}
+nav>ul>li.clickli>a{
+	color: #000;
+}
+nav>ul{
+	height: 100%;
+}
+nav>ul>li{
+	width: 100px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 14px;
+
+}
+nav>ul>li:hover{
+	background: url(../images/鼠标置于上方颜色.png) ;
+	color: #000;
+	cursor: pointer;
+}
+nav>ul>li>a{
+	display: inline-block;
+	color: #fff;	
+	margin-top: 10px;
+}
+nav>ul>li>.color-black{
+	color: #000;
+}
+nav>ul>li .en{
+	font-size: 10px;
+}
+.nav-telnumber{
+	position: absolute;
+	right: 90px;
+	top:10px;
+}
+/*header*/
+
+/*footer*/
+footer{
+	height: 227px;
+	background:url(../images/foot-background.jpg);
+	color: #fff;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+.footer-left{
+	float: left;
+}
+.footer-left ul{
+	width: 330px;
+	margin-top: 50px;
+	margin-left: 120px;
+}
+.footer-left ul li{
+	width: 65px;
+	margin-right: 45px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+.footer-left ul li a{
+	color: #fff;
+}
+.footer-right{
+	float: right;
+	margin-top: 40px;
+	margin-right: 98px;
+}
+.footer-right .tel-add img{
+	float: left;
+	margin-top: 5px;
+}
+.footer-right .tel-add{
+	float: left;
+	margin-left: 150px;
+}
+.footer-right .two-dimension{
+	float: right;
+}
+.footer-right .tel-add .telnum{
+	width: 157px;
+	height: 41px;
+	margin-left: 40px;
+	background: url(../images/圆角矩形-2.png);
+	position: relative;
+}
+.footer-right .tel-add .telnum img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.footer-right .tel-add .tel{
+	margin-left: left;
+}
+.footer-right .copyright{
+	line-height: 40px;
+}
+.footer-right .tel-add .add{
+	margin-top: 20px;
+	text-align: right;
+}
+/*footer end*/

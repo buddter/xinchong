@@ -1,0 +1,48 @@
+/*banner*/
+.xst-scroll{
+	overflow: hidden;
+	position: relative;
+	height: 399px;
+	width: 1200px;
+}
+.xst-scroll li{
+	height: 399px;
+	position: absolute;
+	top: 0;
+	width: 1200px;
+	display: none;
+	opacity: 0.3;
+}
+/*banner*/
+/*cont-inner*/
+.cont-inner .bc-top{
+	width: 951px;
+	height: 511px;
+	margin: auto;
+	background: url(../images/食堂.jpg);
+}
+.mask-layer{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(88,88,88,.5);
+}
+.mask-layer:hover{
+	background: rgba(88,88,88,0);
+}
+.cont-inner .bc-bottom{
+	width: 951px;
+	margin: auto;
+}
+.cont-inner .bc-bottom div{
+	height: 266px;
+	width: 461px;
+}
+.bc-bottom .bottom-l{
+	float: left;
+	background: url(../images/配送中心.jpg);
+}
+.bc-bottom .bottom-r{
+	float: right;
+	background: url(../images/种植基地.jpg);
+}
+/*cont-inner end*/

@@ -1,0 +1,84 @@
+.banner{
+	height: 399px;
+	background: url(../images/QOS-banner.jpg);
+}
+.live-cooking{
+	width: 967px;
+	height: 610px;
+	margin: auto;
+}
+.live-cookingl{
+	width: 685px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 50px;
+	margin-right: 30px;
+	position: relative;
+}
+.live-cookingl img{
+	
+}
+.live-cookingl i{
+	display: block;
+	width: 49px;
+	height: 49px;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	left: 0;
+	margin:auto;
+	cursor: pointer;
+}
+.live-cookingl .pre{
+	background: url(../images/QOS-pre.png);
+}
+.live-cookingl .next{
+	background: url(../images/QOS-next.png);
+	margin-left: 635px;
+}
+.live-cookingl span{
+	color:#3f5015;
+	display: inline-block;
+	font-size: 20px;
+	padding-top: 30px;
+}	
+.live-cookingr{
+	width: 250px;
+	height: 100%;
+	float: left;
+}
+.cooking-page{
+	height: 36px;
+	overflow: hidden;
+}
+.page-header{
+	height: 34px;
+	font-size: 15px;
+	color: #fff;
+	line-height: 34px;
+	text-align: center;
+	background-color: #64a71c;
+	cursor: pointer;
+}
+.cooking-list li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	margin-right: 15px;
+}
+.cooking-list{
+	padding-left: 18px;
+	padding-top: 15px;
+}
+.cooking-list li .text{
+	line-height: 25px;
+	font-size: 12px;
+}
+.cooking-list li .img{
+	display: block;
+	width: 100px;
+	height: 72px;
+	background-color: #af5896;
+}

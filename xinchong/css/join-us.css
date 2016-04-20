@@ -1,0 +1,33 @@
+.banner{
+	height: 400px;
+	background: url(../images/JU-banner.jpg);
+}
+.block .title{
+	font-size: 18px;
+}
+
+.block{
+	font-size: 14px;
+	line-height: 25px;
+}
+.block ul>li{
+	float: left;
+}
+.manager .img,.cook .img{
+	margin-left: 100px;
+}
+.manager .txt,.cook .txt{
+	width: 537px;
+	margin-left: 188px;
+}
+.accountant .txt,.waiter .txt{
+	width: 573px;
+	margin-left: 198px;
+}
+.accountant .img,.waiter .img{
+	margin-left: 158px;
+}
+.accountant{
+	height: 250px;
+	overflow: hidden;
+}
